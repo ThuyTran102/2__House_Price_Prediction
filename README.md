@@ -32,14 +32,14 @@ This project aims to predict house prices in U.S. based on available features us
 ### Model Results
 - Among the baseline models examined, XGBoost is the best-performing model based on all metrics, with the lowest MAE and RMSE, and the highest R2 as well as Adjusted R2 values despite the existence of overfitting. It is worth considering the Linear regression model because it achieves positive results with no overfitting although the performance is lower than XGBoost and Random Forest.
 
-![Image1](https://github.com/ThuyTran102/SDS-Midterm-Project/blob/main/images/baseline_models_comparison.png)
+![Image1](https://github.com/ThuyTran102/DS-Midterm-Project/blob/main/images/baseline_models_comparison.png)
 
 - Tried reducing features that have low correlation with the target variable but did not yield better performance result.
 - After hyperparameter tuning for XGBoost, Random Forest, Linear Regression, although the model's performance did not increase significantly, XGboost is still the winner.
 
-![Image2](https://github.com/ThuyTran102/SDS-Midterm-Project/blob/main/images/tuned_model_XGBoost.png)
+![Image2](https://github.com/ThuyTran102/DS-Midterm-Project/blob/main/images/tuned_model_XGBoost.png)
 
-![Image3](https://github.com/ThuyTran102/SDS-Midterm-Project/blob/main/images/tuned_XGBoost_graph.png)
+![Image3](https://github.com/ThuyTran102/DS-Midterm-Project/blob/main/images/tuned_XGBoost_graph.png)
 
 
 ## Challenges 
