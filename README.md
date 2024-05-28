@@ -37,7 +37,7 @@ This project aims to predict house prices in U.S. based on available features us
 - Tried reducing features that have low correlation with the target variable but did not yield better performance result.
 - After hyperparameter tuning for XGBoost, Random Forest, Linear Regression, although the model's performance did not increase significantly, XGboost is still the winner.
 
-![Image2](https://github.com/ThuyTran102/DS-Midterm-Project/blob/main/images/tuned_model_XGBoost.png)
+![Image2](https://github.com/ThuyTran102/DS-Midterm-Project/blob/main/images/tuned_XGBoost.png)
 
 ![Image3](https://github.com/ThuyTran102/DS-Midterm-Project/blob/main/images/tuned_XGBoost_graph.png)
 
