@@ -40,15 +40,18 @@ This project aims to predict house prices in U.S. based on available features us
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
 <img width="60%" src="https://github.com/ThuyTran102/DS-Midterm-Project/blob/main/images/baseline_models_comparison.png" alt="Image1"></img>
 </p>
+
 - Features reduction with low correlation with the target variable not granting any higher stake in model performance and could prone the model to overfit the training data.
 - This project has three baselines performing well and hypertuned : XGBoost, Random Forest and Linear Regression. The performance of each model by a lower volumne yet significant increase in each evaulation metric.
 - ***Overall XGBoost model was the winner in exceeding significant metrics and predicting the best out of all models.***
+
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
 <img width="60%" src="https://github.com/ThuyTran102/DS-Midterm-Project/blob/main/images/tuned_XGBoost.png" alt="Image2"></img>
 </p>
 <p align="center" style="margin-bottom: 20px;">
 <img src="https://github.com/ThuyTran102/DS-Midterm-Project/blob/main/images/tuned_XGBoost_graph.png" alt="Image3"></img>
 </p>
+
 ## Possible Feature Engineering 
 - ***Age of the Property and Location interaction*** using current columns of ***year built, latitude & longitude*** was a prospective move but did not result in hypertuned and baseline model performance.
 
