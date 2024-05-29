@@ -21,13 +21,13 @@ This project aims to predict house prices in U.S. based on available features us
 - Performing hyperparameter tuning on the best performing models from Part 2 and saving the tuned model.
 - Building a final prediction pipeline and saving it for future usage.
 
-### Key Insights
+## Key Insights
 > - Single Family homes are popular among 90% of the dataset which points towards its commonality among different U.S. residents.
 > -  **Boston, Honolulu, Nashville and Springfield** cities seems to have high priced housing with an average $1 Million house sale price.
 > - Most of the houses in this dataset belongs to cluster with year build from 1900s to 2020s.
 > 
 
-### Model Results
+## Model Results
 - **Baseline Models :** With no hypertuning and preprocessed data, **XGBoost** is the best performing model based on the following metrics,
     - ***Mean Absolute Error***
     - ***Mean Squared Error***
