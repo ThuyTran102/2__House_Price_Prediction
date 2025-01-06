@@ -1,9 +1,24 @@
-# Data Science Midterm Project
+# House Price Prediction
+### Supervised Machine Learning Project (Regression Models)
 
-## Objectives
+<p align="left" style="margin-top: 20px; margin-bottom: 20px;">
+<img width="40%" src="https://github.com/ThuyTran102/2__House_price_prediction/blob/main/images/house.png" alt="house_price"></img>
+</p>
+
+## Table of Contents:
+- [Project Objectives](https://github.com/ThuyTran102/2__House_price_prediction?tab=readme-ov-file#objectives)
+- [Project Process](https://github.com/ThuyTran102/2__House_price_prediction?tab=readme-ov-file#process)
+- [Key Insights](https://github.com/ThuyTran102/2__House_price_prediction?tab=readme-ov-file#key-insights)
+- [Model Results](https://github.com/ThuyTran102/2__House_price_prediction?tab=readme-ov-file#model-results)
+- [Possible Feature Engineering](https://github.com/ThuyTran102/2__House_price_prediction?tab=readme-ov-file#possible-feature-engineering)
+- [Challenges](https://github.com/ThuyTran102/2__House_price_prediction?tab=readme-ov-file#challenges)
+- [Future Goals](https://github.com/ThuyTran102/2__House_price_prediction?tab=readme-ov-file#future-goals)
+
+
+## Objectives:
 This project aims to predict house prices in U.S. based on available features using supervised machine learning techniques. The goal is to gain insights from the data and use data visualization tools to present findings effectively.
 
-## Process
+## Process:
 ### Step 1: Data Preparation
 - **Loading, synthesizing and extracting** : Information from available JSON data files for different cities and states in U.S.
 - **Exploratory data analysis** : Uncovering data patterns, spot outliers and learn correlation. 
@@ -21,13 +36,13 @@ This project aims to predict house prices in U.S. based on available features us
 - Performing hyperparameter tuning on the best performing models from Part 2 and saving the tuned model.
 - Building a final prediction pipeline and saving it for future usage.
 
-## Key Insights
+## Key Insights:
 > - Single Family homes are popular among 90% of the dataset which points towards its commonality among different U.S. residents.
 > -  **Boston, Honolulu, Nashville and Springfield** cities seems to have high priced housing with an average $1 Million house sale price.
 > - Most of the houses in this dataset belongs to cluster with year build from 1900s to 2020s.
 > 
 
-## Model Results
+## Model Results:
 - **Baseline Models :** With no hypertuning and preprocessed data, **XGBoost** is the best performing model based on the following metrics,
     - ***Mean Absolute Error***
     - ***Mean Squared Error***
@@ -52,10 +67,10 @@ This project aims to predict house prices in U.S. based on available features us
 <img src="https://github.com/ThuyTran102/DS-Midterm-Project/blob/main/images/tuned_XGBoost_graph.png" alt="Image3"></img>
 </p>
 
-## Possible Feature Engineering 
+## Possible Feature Engineering:
 - ***Age of the Property and Location interaction*** using current columns of ***year built, latitude & longitude*** was a prospective move but did not result in hypertuned and baseline model performance.
 
-## Challenges 
+## Challenges:
 - Insufficient and poor diverse data may have led to learning limitations : the model may have fail to learn more general and important patterns. 
 - The model is too complex compared to the amount of data, resulting in overfitting to the training data and performing poorly on new data.
 - The baseline models did not explained variance in the target variable, Sale Price, very well (70%-80%).
@@ -63,7 +78,7 @@ This project aims to predict house prices in U.S. based on available features us
 - The manual Grid Search took a longer amount of time in avoidance to data leakage for **Median prices** based on city and state had to redone during each cross validation. 
 - Manual Grid Search limited the scope of Randomized Search in this dataset as during feature engineering test data impacted the training data while fitting.
 
-## Future Goals
+## Future Goals:
 - Implementing some research about other features and data that might be useful to predict housing prices.
 - Enhancing the model by incorporating additional data sources or more advanced algorithms.
 - Exploratory data analysis from this project has potential to provide visuals to prospective Builders and Home buyers to gather data about current and past house sale prices scenario.
